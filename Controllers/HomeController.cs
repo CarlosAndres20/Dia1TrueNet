@@ -35,6 +35,7 @@ namespace Dia1TrueNet.Controllers
         }
         public IActionResult Login()
         {
+            ViewData["Message"] = "Registrarse";
             return View();
         }
 
